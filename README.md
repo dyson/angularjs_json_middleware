@@ -26,7 +26,7 @@ gem 'angularjs_json_middleware', '~> 0.0.1'
 ```
 ##### Config
 
-Add the middleware to your `config/application.rb`.
+Add the middleware to the stack. For rails add it to `config/application.rb`.
 
 ```ruby
 class Application < Rails::Application
